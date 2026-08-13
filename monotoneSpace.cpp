@@ -24,3 +24,4 @@ int main(){
     }
     cout<<ans<<endl;
 }
+//TC- O(log n)

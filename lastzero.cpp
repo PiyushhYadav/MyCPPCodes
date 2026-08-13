@@ -26,3 +26,4 @@ int main(){
     cout<<firstone-1<<endl;
 
 }
+//TC- O(logn)
