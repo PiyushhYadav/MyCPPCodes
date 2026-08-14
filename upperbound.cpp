@@ -1,32 +1,29 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//Upper bound using binary search
 int n,x;
-int arr[100005];
+int arr[100003];
 
 int check(int mid){
-    if(arr[mid]>=x){
+    if(arr[mid]>x){
         return 1;
     }
-    else{
+    else {
         return 0;
     }
 }
 
-void solve(){
+int main(){
     cin>>n;
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
 
     cin>>x;
-    //lower bound
-
-    int ans=-1;//real STL in lower bound return (arr+n), not -1
-    int lo=0,hi=n-1;//seach space
+    int ans=n;
+    int lo=0,hi=n-1;
     while(lo<=hi){
-        //mid can also be = lo + (hi-lo)/2 to handle overflow
-        int mid=(lo+hi)/2;
+        int mid=lo + (hi-lo)/2;
 
         if(check(mid)==0){
             lo=mid+1;
@@ -37,9 +34,4 @@ void solve(){
         }
     }
     cout<<ans<<endl;
-
-}
-
-int main(){
-    solve();
 }
