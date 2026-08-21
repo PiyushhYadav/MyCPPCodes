@@ -10,7 +10,7 @@ int main(){
     }
     //ds
     int cnt0=0;
-    //pointes
+    //pointer
     int head=-1,tail=0;
     int ans=0;
     while(tail<n){
