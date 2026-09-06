@@ -14,7 +14,7 @@ void solve(){
         ans += arr[i]*(i+1)*(n-i);
     }
     cout<<ans<<endl;
-    
+    /*Contribution Technique- Atomic Contribution*/
 }
 
 signed main(){

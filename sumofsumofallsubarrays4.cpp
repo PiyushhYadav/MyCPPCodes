@@ -15,5 +15,5 @@ int main(){
         ans+=prev;
     }
     cout<<ans<<endl;
-    
+    /*contribution technique- extending ends */
 }
