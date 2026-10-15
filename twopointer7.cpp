@@ -27,7 +27,7 @@ int main(){
     int ans=1e9;
     
     while(tail<n){
-        while(head+1<n && (distinct<(k-1) || freq[arr[head+1]]>0)){
+        while(head+1<n && (distinct<(k-1) || freq[arr[head+1]]>0)){//checks for atmost k-1
             head++;
             insert(arr[head]);
         }
