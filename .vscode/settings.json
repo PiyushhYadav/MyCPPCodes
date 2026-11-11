@@ -1,4 +1,12 @@
 {
+  "clangd.arguments": [],
   "editor.tabSize": 4,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "C_Cpp.default.compilerPath": "C:/Users/ypiyu/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/g++.exe",
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\ypiyu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin;${env:PATH}"
+  },
+  "C_Cpp.codeAnalysis.clangTidy.enabled": false,
+  "C_Cpp.codeAnalysis.runAutomatically": false
 }

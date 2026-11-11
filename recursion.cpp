@@ -8,8 +8,7 @@ int fib(int x){
     }
 }
 
-signed main(){
-    fib(6);
-    cout<<fib(6);
+int main(){
+    cout<<fib(6)<<endl;
     return 0;
 }
