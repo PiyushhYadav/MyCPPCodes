@@ -1,14 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int fib(int x){
-    if(x<=1) return x;
+int fact(int x){
+    //base case
+    if(x<=1){
+        return x;
+    }
     else{
-        return fib(x-1) + fib(x-2);
+        return x * fact(x-1);
     }
 }
 
-int main(){
-    cout<<fib(6)<<endl;
-    return 0;
+signed main(){
+    int n;
+    cin>>n;
+    cout<<"factorial: "<<fact(n)<<endl;
 }
